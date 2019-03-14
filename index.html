@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Client_Server_ROC</title>
+		<style>
+			body{text-align:center}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">ROC Curve Of A Logistic Regression Model</h1>
+		
+		<input name="preprocessing" type="radio" value="minmax" checked="checked" />min-max scaler
+		<input name="preprocessing" type="radio" value="standard"/>Standardization
+		<br />Value C (between 0 and 1)
+		<input type="text" id="c" value="1.0" />
+		<br /><input type="button" value="Submit" onclick="Submit()" />
+		
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<br /><script src="script/main.js"></script>
+	</body>
+</html>
+© 2019 GitHub, Inc.
